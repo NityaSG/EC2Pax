@@ -1,3 +1,5 @@
 pandasai
 langchain
 pandas
+gunicorn
+wsgi
