@@ -11,7 +11,7 @@ dotenv.load_dotenv()
 key = os.getenv('OPENAI_API_KEY')
 
 # Initialize Flask application
-ap = Flask(__name__)
+app = Flask(__name__)
 
 # Load dataframes
 df = pd.read_csv('processed.csv')
@@ -49,10 +49,10 @@ agent = initialize_agent(
     agent=AgentType.OPENAI_FUNCTIONS,
     verbose=True,
 )
-@ap.route('/',methods=['GET'])
+@app.route('/',methods=['GET'])
 def index():
     return "Hello World"
-@ap.route('/query', methods=['POST'])
+@app.route('/query', methods=['POST'])
 def handle_query():
     data = request.json
     query = data.get('query', '')
@@ -63,4 +63,4 @@ def handle_query():
     return jsonify({'response': str(response)})
 
 if __name__ == '__main__':
-    ap.run(debug=True)
+    app.run(debug=True)
