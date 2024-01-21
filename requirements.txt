@@ -2,4 +2,4 @@ pandasai
 langchain
 pandas
 gunicorn
-
+flask
