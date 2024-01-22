@@ -2,4 +2,3 @@ pandasai
 langchain
 pandas
 flask
-gunicron
