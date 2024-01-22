@@ -2,3 +2,4 @@ pandasai
 langchain
 pandas
 flask
+gunicorn
