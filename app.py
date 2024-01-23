@@ -10,7 +10,7 @@ key = os.getenv('OPENAI_API_KEY')
 df = pd.read_csv('processed_combined_new (1996 included)v.csv')
 llm1 = OpenAI(api_token=key)
 
-agent=Agent([df],config={"llm": llm1,"verbose": True,"enable_cache":False,"custom_instructions":"If the answer is not available in the dataframe then decline to answer"})
+agent=Agent([df],config={"llm": llm1,"verbose": True,"enable_cache":False,"custom_instructions":"If the answer is not available in the dataframe then decline to answer.Please filter the data by column : year of record."})
 
 #agent.chat("what is the population of swartland")
 

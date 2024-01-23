@@ -12,8 +12,7 @@ key = os.getenv('OPENAI_API_KEY')
 
 # Load dataframes
 df = pd.read_csv('processed.csv')
-df1 = pd.read_csv('processed_1.csv')
-df2 = pd.read_csv('processed_2.csv')
+
 
 llm_agent = ChatOpenAI(api_key=key,temperature=0, model="gpt-4")
 llm1 = OpenAI(api_token=key)
