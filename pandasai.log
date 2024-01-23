@@ -1808,3 +1808,785 @@ result = {'type': 'number', 'value': matzikama_population}
 2024-01-23 23:31:29 [INFO]  * Detected change in 'C:\\Users\\KIIT\\Desktop\\Kreeda\\pdaiaws\\app.py', reloading
 2024-01-23 23:31:29 [INFO]  * Detected change in 'C:\\Users\\KIIT\\Desktop\\Kreeda\\pdaiaws\\app.py', reloading
 2024-01-23 23:31:30 [INFO]  * Restarting with watchdog (windowsapi)
+2024-01-23 23:31:31 [WARNING]  * Debugger is active!
+2024-01-23 23:31:31 [INFO]  * Debugger PIN: 136-406-025
+2024-01-23 23:31:36 [INFO] Question: what is the population of matzikama in 2011
+
+2024-01-23 23:31:36 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:31:36 [INFO] Prompt ID: 86f4d035-2993-44b2-b4da-7fa20ee69d70
+2024-01-23 23:31:36 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:31:36 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:31:36 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: what is the population of matzikama in 2011
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:31:36 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:31:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:31:40 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_df = dfs[0]
+population_2011 = population_df.loc[(population_df['year of record'] == 2011) & (population_df['Local municipality name'] == 'Matzikama'), 'Total Population'].values[0]
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+result = {
+    "type": "number",
+    "value": population_2011
+}
+            ```
+            
+2024-01-23 23:31:40 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:31:40 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:31:40 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:31:40 [INFO] 
+Code running:
+```
+population_df = dfs[0]
+population_2011 = population_df.loc[(population_df['year of record'] == 2011) & (population_df['Local municipality name'] == 'Matzikama'), 'Total Population'].values[0]
+result = {'type': 'number', 'value': population_2011}
+        ```
+2024-01-23 23:31:40 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:31:40 [INFO] Answer: {'type': 'number', 'value': '67,147'}
+2024-01-23 23:31:40 [INFO] Executed in: 4.59794807434082s
+2024-01-23 23:31:40 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:31:40 [INFO] 127.0.0.1 - - [23/Jan/2024 23:31:40] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:32:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:32:00 [INFO] Check if the new message is related to the conversation: False
+2024-01-23 23:32:00 [INFO] Question: what is the population of swartland
+
+2024-01-23 23:32:00 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:32:00 [INFO] Prompt ID: 33eeb701-d3cf-4da3-9020-0ddeef55a933
+2024-01-23 23:32:00 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:32:00 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:32:00 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: what is the population of swartland
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:32:00 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:32:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:32:04 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_df = dfs[0]
+swartland_population = population_df.loc[population_df['Local municipality name'] == 'Swartland', 'Total Population'].values[0]
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+result = {
+    "type": "number",
+    "value": swartland_population
+}
+            ```
+            
+2024-01-23 23:32:04 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:32:04 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:32:04 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:32:04 [INFO] 
+Code running:
+```
+population_df = dfs[0]
+swartland_population = population_df.loc[population_df['Local municipality name'] == 'Swartland', 'Total Population'].values[0]
+result = {'type': 'number', 'value': swartland_population}
+        ```
+2024-01-23 23:32:04 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:32:04 [INFO] Answer: {'type': 'number', 'value': '1,48,331'}
+2024-01-23 23:32:04 [INFO] Executed in: 4.492851734161377s
+2024-01-23 23:32:04 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:32:04 [INFO] 127.0.0.1 - - [23/Jan/2024 23:32:04] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:32:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:32:16 [INFO] Check if the new message is related to the conversation: True
+2024-01-23 23:32:16 [INFO] Question: what is the population of swartland in 2011
+
+
+2024-01-23 23:32:16 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:32:16 [INFO] Prompt ID: 7f4a3355-b7f9-4538-8caf-d33a5e85c370
+2024-01-23 23:32:16 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:32:16 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:32:16 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+Q: what is the population of swartland
+
+A: 1,48,331
+
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_df = dfs[0]
+swartland_population = population_df.loc[population_df['Local municipality name'] == 'Swartland', 'Total Population'].values[0]
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+result = {
+    "type": "number",
+    "value": swartland_population
+}
+```
+
+Q: what is the population of swartland in 2011
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:32:16 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:32:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:32:20 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_df = dfs[0]
+swartland_population_2011 = population_df.loc[(population_df['Local municipality name'] == 'Swartland') & (population_df['year of record'] == 2011), 'Total Population'].values[0]
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+result = {
+    "type": "number",
+    "value": swartland_population_2011
+}
+            ```
+            
+2024-01-23 23:32:20 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:32:20 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:32:20 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:32:20 [INFO] 
+Code running:
+```
+population_df = dfs[0]
+swartland_population_2011 = population_df.loc[(population_df['Local municipality name'] == 'Swartland') & (population_df['year of record'] == 2011), 'Total Population'].values[0]
+result = {'type': 'number', 'value': swartland_population_2011}
+        ```
+2024-01-23 23:32:20 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:32:20 [INFO] Answer: {'type': 'number', 'value': '1,13,762'}
+2024-01-23 23:32:20 [INFO] Executed in: 4.029208183288574s
+2024-01-23 23:32:20 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:32:20 [INFO] 127.0.0.1 - - [23/Jan/2024 23:32:20] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:33:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:33:04 [INFO] Check if the new message is related to the conversation: True
+2024-01-23 23:33:04 [INFO] Question: compare the value of population of swartland in 2011 and 2022
+
+
+2024-01-23 23:33:04 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:33:04 [INFO] Prompt ID: 259dc0d2-efc8-4eb2-b0fc-17c9cb0fdab1
+2024-01-23 23:33:04 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:33:04 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:33:04 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+Q: what is the population of swartland
+
+A: 1,48,331
+Q: what is the population of swartland in 2011
+
+
+A: 1,13,762
+
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_df = dfs[0]
+swartland_population_2011 = population_df.loc[(population_df['Local municipality name'] == 'Swartland') & (population_df['year of record'] == 2011), 'Total Population'].values[0]
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+result = {
+    "type": "number",
+    "value": swartland_population_2011
+}
+```
+
+Q: compare the value of population of swartland in 2011 and 2022
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:33:04 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:33:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:33:10 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_df = dfs[0]
+swartland_population_2011 = population_df.loc[(population_df['Local municipality name'] == 'Swartland') & (population_df['year of record'] == 2011), 'Total Population'].values[0]
+swartland_population_2022 = population_df.loc[(population_df['Local municipality name'] == 'Swartland') & (population_df['year of record'] == 2022), 'Total Population'].values[0]
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+result = {
+    "type": "string",
+    "value": f"The population of Swartland in 2011 was {swartland_population_2011} and in 2022 it is {swartland_population_2022}."
+}
+            ```
+            
+2024-01-23 23:33:10 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:33:10 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:33:10 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:33:10 [INFO] 
+Code running:
+```
+population_df = dfs[0]
+swartland_population_2011 = population_df.loc[(population_df['Local municipality name'] == 'Swartland') & (population_df['year of record'] == 2011), 'Total Population'].values[0]
+swartland_population_2022 = population_df.loc[(population_df['Local municipality name'] == 'Swartland') & (population_df['year of record'] == 2022), 'Total Population'].values[0]
+result = {'type': 'string', 'value': f'The population of Swartland in 2011 was {swartland_population_2011} and in 2022 it is {swartland_population_2022}.'}
+        ```
+2024-01-23 23:33:10 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:33:10 [INFO] Answer: {'type': 'string', 'value': 'The population of Swartland in 2011 was 1,13,762 and in 2022 it is 1,48,331.'}
+2024-01-23 23:33:10 [INFO] Executed in: 5.866770267486572s
+2024-01-23 23:33:10 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:33:10 [INFO] 127.0.0.1 - - [23/Jan/2024 23:33:10] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:43:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:43:53 [INFO] Check if the new message is related to the conversation: False
+2024-01-23 23:43:53 [INFO] Question: what is the value of population of matzikama in 2011
+
+
+2024-01-23 23:43:53 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:43:53 [INFO] Prompt ID: 4b0c33f7-405d-41d0-a539-f24546086bb6
+2024-01-23 23:43:53 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:43:53 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:43:53 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: what is the value of population of matzikama in 2011
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:43:53 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:43:56 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:43:56 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_2011 = dfs[0][(dfs[0]['year of record'] == 2011) & (dfs[0]['Local municipality name'] == 'Matzikama')]['Total Population'].values[0]
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+result = {
+    "type": "number",
+    "value": population_2011
+}
+            ```
+            
+2024-01-23 23:43:56 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:43:56 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:43:56 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:43:56 [INFO] 
+Code running:
+```
+population_2011 = dfs[0][(dfs[0]['year of record'] == 2011) & (dfs[0]['Local municipality name'] == 'Matzikama')]['Total Population'].values[0]
+result = {'type': 'number', 'value': population_2011}
+        ```
+2024-01-23 23:43:56 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:43:56 [INFO] Answer: {'type': 'number', 'value': '67,147'}
+2024-01-23 23:43:56 [INFO] Executed in: 3.821695566177368s
+2024-01-23 23:43:56 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:43:56 [INFO] 127.0.0.1 - - [23/Jan/2024 23:43:56] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:44:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:44:04 [INFO] Check if the new message is related to the conversation: False
+2024-01-23 23:44:04 [INFO] Question: what is the value of population of matzikama in 2022
+
+
+2024-01-23 23:44:04 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:44:04 [INFO] Prompt ID: 48e99c9c-1b98-4d14-897a-7e62eff575d6
+2024-01-23 23:44:05 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:44:05 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:44:05 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: what is the value of population of matzikama in 2022
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:44:05 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:44:06 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:44:06 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+df = dfs[0]  # Get the first dataframe from the list
+population = df.loc[df['Local municipality name'] == 'Matzikama', 'Total Population'].values[0]
+
+# Declare result var
+result = {
+    "type": "number",
+    "value": population
+}
+            ```
+            
+2024-01-23 23:44:06 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:44:06 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:44:06 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:44:06 [INFO] 
+Code running:
+```
+df = dfs[0]
+population = df.loc[df['Local municipality name'] == 'Matzikama', 'Total Population'].values[0]
+result = {'type': 'number', 'value': population}
+        ```
+2024-01-23 23:44:06 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:44:06 [INFO] Answer: {'type': 'number', 'value': '69,043'}
+2024-01-23 23:44:06 [INFO] Executed in: 1.9508438110351562s
+2024-01-23 23:44:06 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:44:06 [INFO] 127.0.0.1 - - [23/Jan/2024 23:44:06] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:44:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:44:13 [INFO] Check if the new message is related to the conversation: True
+2024-01-23 23:44:13 [INFO] Question: what is the value of population of matzikama in 2011
+
+
+2024-01-23 23:44:13 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:44:13 [INFO] Prompt ID: 2e08e810-7de9-41d4-88e8-a386cb2a1584
+2024-01-23 23:44:13 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:44:13 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:44:13 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+Q: what is the value of population of matzikama in 2022
+
+
+A: 69,043
+
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+df = dfs[0]  # Get the first dataframe from the list
+population = df.loc[df['Local municipality name'] == 'Matzikama', 'Total Population'].values[0]
+
+# Declare result var
+result = {
+    "type": "number",
+    "value": population
+}
+```
+
+Q: what is the value of population of matzikama in 2011
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:44:13 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:44:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:44:15 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+df = dfs[0]  # Get the first dataframe from the list
+population = df.loc[df['Local municipality name'] == 'Matzikama', 'Total Population'].values[0]
+
+# Declare result var
+result = {
+    "type": "number",
+    "value": population
+}
+            ```
+            
+2024-01-23 23:44:15 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:44:15 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:44:15 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:44:15 [INFO] 
+Code running:
+```
+df = dfs[0]
+population = df.loc[df['Local municipality name'] == 'Matzikama', 'Total Population'].values[0]
+result = {'type': 'number', 'value': population}
+        ```
+2024-01-23 23:44:15 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:44:15 [INFO] Answer: {'type': 'number', 'value': '69,043'}
+2024-01-23 23:44:15 [INFO] Executed in: 2.2078466415405273s
+2024-01-23 23:44:15 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:44:15 [INFO] 127.0.0.1 - - [23/Jan/2024 23:44:15] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:44:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:44:20 [INFO] Check if the new message is related to the conversation: True
+2024-01-23 23:44:20 [INFO] Question: what is the value of population of matzikama in 2011
+
+
+2024-01-23 23:44:20 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:44:20 [INFO] Prompt ID: c7cfd489-4b9d-4eda-8da7-78f14e7607e2
+2024-01-23 23:44:20 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:44:20 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:44:20 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+Q: what is the value of population of matzikama in 2022
+
+
+A: 69,043
+Q: what is the value of population of matzikama in 2011
+
+
+A: 69,043
+
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+df = dfs[0]  # Get the first dataframe from the list
+population = df.loc[df['Local municipality name'] == 'Matzikama', 'Total Population'].values[0]
+
+# Declare result var
+result = {
+    "type": "number",
+    "value": population
+}
+```
+
+Q: what is the value of population of matzikama in 2011
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:44:20 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:44:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:44:22 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+df = dfs[0]  # Get the first dataframe from the list
+population = df.loc[df['Local municipality name'] == 'Matzikama', 'Total Population'].values[0]
+
+# Declare result var
+result = {
+    "type": "number",
+    "value": population
+}
+            ```
+            
+2024-01-23 23:44:22 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:44:22 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:44:22 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:44:22 [INFO] 
+Code running:
+```
+df = dfs[0]
+population = df.loc[df['Local municipality name'] == 'Matzikama', 'Total Population'].values[0]
+result = {'type': 'number', 'value': population}
+        ```
+2024-01-23 23:44:22 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:44:22 [INFO] Answer: {'type': 'number', 'value': '69,043'}
+2024-01-23 23:44:22 [INFO] Executed in: 2.057143449783325s
+2024-01-23 23:44:22 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:44:22 [INFO] 127.0.0.1 - - [23/Jan/2024 23:44:22] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:45:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:45:37 [INFO] Check if the new message is related to the conversation: False
+2024-01-23 23:45:37 [INFO] Question: what is the population of swartland in 2022
+
+
+2024-01-23 23:45:37 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:45:37 [INFO] Prompt ID: a9b2968f-fe71-45c2-a081-585a3ee44ae6
+2024-01-23 23:45:37 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:45:37 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:45:37 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: what is the population of swartland in 2022
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:45:37 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:45:39 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:45:39 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_df = dfs[0]
+swartland_population = population_df.loc[population_df['Local municipality name'] == 'Swartland', 'Total Population'].values[0]
+
+# Declare result var
+result = {
+    "type": "number",
+    "value": swartland_population
+}
+            ```
+            
+2024-01-23 23:45:39 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:45:39 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:45:39 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:45:39 [INFO] 
+Code running:
+```
+population_df = dfs[0]
+swartland_population = population_df.loc[population_df['Local municipality name'] == 'Swartland', 'Total Population'].values[0]
+result = {'type': 'number', 'value': swartland_population}
+        ```
+2024-01-23 23:45:39 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:45:39 [INFO] Answer: {'type': 'number', 'value': '1,48,331'}
+2024-01-23 23:45:39 [INFO] Executed in: 1.9747142791748047s
+2024-01-23 23:45:39 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:45:39 [INFO] 127.0.0.1 - - [23/Jan/2024 23:45:39] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:45:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:45:45 [INFO] Check if the new message is related to the conversation: True
+2024-01-23 23:45:45 [INFO] Question: what is the population of swartland in 2011
+
+
+2024-01-23 23:45:45 [INFO] Running PandasAI with openai LLM...
+2024-01-23 23:45:45 [INFO] Prompt ID: 3bbe4fe3-a110-4fe7-a480-71b0ab2bc685
+2024-01-23 23:45:45 [INFO] Executing Step 0: CacheLookup
+2024-01-23 23:45:45 [INFO] Executing Step 1: PromptGeneration
+2024-01-23 23:45:45 [INFO] Using prompt: <dataframe>
+dfs[0]:1068x100
+year of record,Local municipality name,District municipality name,Province name,Piped (tap) water inside dwelling,Piped (tap) water inside yard,Piped (tap) water on community stand,No access to piped (tap) water,Total Water,Flush toilet,Chemical toilet,Pit toilet,Bucket toilet,Other Toilet,No Toilet,Total Toilet,Removed by local authority/private company at least once a week,Removed by local authority/private company less often,Communal refuse dump,Own refuse dump,Other dumps,No rubbish disposal,Total refuse dump,Total Population,Male,Female,Black African people,Coloured people,Indian or Asian people,White people,Other people,Attended School,Did not attend school,Total people eligible for education,Formal dwelling,Traditional dwelling,Informal dwelling,Other dwellings,Total dwellings,No schooling,Some primary schooling,Completed primary schooling,Some secondary schooling,Grade 12/Std10,Higher education,Other type of education,Electricity energy for lighting,Gas energy for lighting,Paraffin energy for lighting,Candles energy for lighting,Solar energy for lighting,Other energy for lightning,No energy for lightning,Total energy for lighting,Electricity energy for cooking,Gas energy for cooking,Paraffin energy for cooking,Wood energy for cooking,Coal energy for cooking,Animal dung energy for cooking,Solar energy for cooking,Other Energy for Cooking,No Energy for Cooking,Total energy for Cooking,age of Male between 0 and 4,age of Female between 0 and 4,age of Male between 5 and 9,age of female between 5 and 9,age of Male between 10 and 14,age of Female between 10 and 14,age of Male between 15 and 19,age of Female between 15 and 19,age of Male between 20 and 24,age of Female between 20 and 24,25-29 age of Male between 25 and 29,Age of Female between 25 and 29,Age of Male between 30 and 34,age of Female between 30 and 34,Age of Male between 35 and 39,age of Female between 35 and 39,age of Male between 40 and 44,age of Female between 40 and 44,Age of Male between 45 and 49,Age of Female between 45 and 49,Age of Male between 50 and 54,Age of Female between 50 and 54,Age of Male between 55 and 59,Age of Female between 55 and 59,age of Male between 60 and 64,age of Female between 60 and 64,65 - 69 age Male,65 - 69 age Female,70 -74 age Male,70 -74 age Female,75 - 79 age Male,75 - 79 age Female,80 - 84 age Male,80 - 84 age Female,85+ age Male,85+ age Female
+2022,SA,,,"1,06,38,247","40,43,778","15,87,194","15,59,558","1,78,28,778","1,26,27,396","4,60,395","39,05,391","3,71,266","1,85,823","2,78,507","1,78,28,778","97,38,848","2,23,558","2,87,239","39,73,060","1,21,789","8,04,752","1,78,28,778","6,20,27,503","3,00,76,814","3,19,47,531","5,04,85,026","50,52,299","16,97,468","45,03,780","2,47,353","1,45,28,566","52,65,324","1,97,93,891","1,57,76,130","5,60,415","14,35,535","56,698","1,78,28,778","25,76,011","27,78,297","13,17,726","1,18,80,302","1,41,22,681","46,02,765","3,00,207","1,68,82,396","45,675","1,61,485","5,62,088","1,26,055","22,385","28,694","1,78,28,778","1,15,71,636","45,88,608","4,82,420","10,84,905","39,773","3,521","11,839","15,346","30,730","1,78,28,778","29,18,292","29,15,222","25,61,963","25,47,141","27,13,448","26,90,676","25,04,677","24,70,633","26,70,986","26,38,753","28,25,292","29,07,947","27,76,212","28,16,611","25,96,891","26,25,711","20,89,077","20,96,144","15,86,698","17,06,813","12,77,910","14,91,229","11,00,778","13,95,674","9,12,280","11,83,387","6,72,433","9,27,238","4,19,393","6,26,614","2,38,713","4,13,321","1,32,074","2,62,740","79,665","2,31,868"
+2022,Western Cape,,Western Cape,"19,36,409","1,72,974","1,35,151","19,498","22,64,032","21,25,067","26,087","8,980","69,866","7,216","26,816","22,64,032","16,70,617","30,141","20,463","40,929","5,476","28,108","22,64,032","74,30,487","36,00,589","38,29,897","28,82,777","31,24,727","84,327","12,17,337","1,15,235","14,30,441","7,04,974","21,35,414","19,91,644","15,430","2,51,176","5,783","22,64,032","1,07,254","2,90,290","1,83,423","16,08,270","16,87,258","8,37,320","50,750","21,85,360","8,088","24,668","32,079","8,362","2,192","3,282","22,64,032","14,47,321","7,68,547","31,442","7,935",349,104,"2,077","1,816","4,442","22,64,032","3,03,451","2,85,404","2,59,035","2,59,253","2,76,621","2,83,077","2,58,833","2,74,149","3,26,495","3,19,406","3,44,665","3,53,493","3,42,164","3,43,501","3,36,004","3,38,635","2,77,284","2,79,060","2,06,710","2,27,631","1,77,632","2,05,846","1,50,314","1,85,278","1,21,968","1,56,758","89,617","1,20,664","61,279","84,309","37,764","55,825","20,207","33,361","11,588","25,059"
+2022,City of Cape Town,,Western Cape,"12,40,088","1,06,423","94,103","12,231","14,52,845","13,56,649","21,193","3,939","53,308","3,373","14,383","14,52,845","11,35,890","17,973","10,676","12,137","2,429","15,845","14,52,845","47,70,313","23,06,058","24,64,255","21,76,332","16,70,971","75,406","7,74,035","69,237","9,34,103","4,23,932","13,58,035","12,71,679","7,419","1,70,115","3,632","14,52,845","57,805","1,40,554","93,766","10,03,037","11,15,504","6,12,161","35,146","14,05,055","5,227","17,477","18,249","3,748","1,215","1,874","14,52,845","9,33,298","4,91,776","21,535","1,388",172,64,875,"1,078","2,658","14,52,845","1,95,572","1,82,952","1,65,771","1,66,684","1,76,872","1,82,943","1,63,120","1,75,322","2,10,936","2,04,639","2,24,984","2,33,101","2,27,048","2,29,801","2,23,988","2,28,203","1,84,675","1,86,469","1,33,455","1,47,099","1,09,225","1,27,335","92,249","1,14,323","72,947","95,085","51,744","72,203","34,710","50,163","21,245","33,193","11,834","20,000","6,862","15,603"
+</dataframe>
+
+
+Q: what is the population of swartland in 2022
+
+
+A: 1,48,331
+
+
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_df = dfs[0]
+swartland_population = population_df.loc[population_df['Local municipality name'] == 'Swartland', 'Total Population'].values[0]
+
+# Declare result var
+result = {
+    "type": "number",
+    "value": swartland_population
+}
+```
+
+Q: what is the population of swartland in 2011
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-23 23:45:45 [INFO] Executing Step 2: CodeGenerator
+2024-01-23 23:45:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-23 23:45:47 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+population_df = dfs[0]
+swartland_population = population_df.loc[population_df['Local municipality name'] == 'Swartland', 'Total Population'].values[0]
+
+# Declare result var
+result = {
+    "type": "number",
+    "value": swartland_population
+}
+            ```
+            
+2024-01-23 23:45:47 [INFO] Executing Step 3: CachePopulation
+2024-01-23 23:45:47 [INFO] Executing Step 4: CodeExecution
+2024-01-23 23:45:47 [INFO] Saving charts to C:\Users\KIIT\Desktop\Kreeda\pdaiaws\exports\charts\temp_chart.png
+2024-01-23 23:45:47 [INFO] 
+Code running:
+```
+population_df = dfs[0]
+swartland_population = population_df.loc[population_df['Local municipality name'] == 'Swartland', 'Total Population'].values[0]
+result = {'type': 'number', 'value': swartland_population}
+        ```
+2024-01-23 23:45:47 [INFO] Executing Step 5: ResultValidation
+2024-01-23 23:45:47 [INFO] Answer: {'type': 'number', 'value': '1,48,331'}
+2024-01-23 23:45:47 [INFO] Executed in: 2.2481167316436768s
+2024-01-23 23:45:47 [INFO] Executing Step 6: ResultParsing
+2024-01-23 23:45:47 [INFO] 127.0.0.1 - - [23/Jan/2024 23:45:47] "POST /query HTTP/1.1" 200 -
+2024-01-23 23:47:13 [INFO]  * Detected change in 'C:\\Users\\KIIT\\Desktop\\Kreeda\\pdaiaws\\app.py', reloading
+2024-01-23 23:47:13 [INFO]  * Detected change in 'C:\\Users\\KIIT\\Desktop\\Kreeda\\pdaiaws\\app.py', reloading
+2024-01-23 23:47:13 [INFO]  * Detected change in 'C:\\Users\\KIIT\\Desktop\\Kreeda\\pdaiaws\\app.py', reloading
+2024-01-23 23:47:13 [INFO]  * Detected change in 'C:\\Users\\KIIT\\Desktop\\Kreeda\\pdaiaws\\app.py', reloading
+2024-01-23 23:47:14 [INFO]  * Restarting with watchdog (windowsapi)
